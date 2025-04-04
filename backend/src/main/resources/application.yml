@@ -1,1 +1,12 @@
-spring.application.name=backend
+spring:
+  security:
+    jwt:
+      key: abcdefghijk
+      expire: 7
+  datasource:
+    url: jdbc:mysql://localhost:3306/forum
+    username: root
+    password: 200088
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
